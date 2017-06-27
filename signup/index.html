@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>CyberHunt</title>
+        <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+<div class='login'>
+  <h2>Registration</h2>
+  <form action="signup.php" name="form1" method="POST">
+  <input name='username' placeholder='Username' type='text'>
+    <input name='email' placeholder='E-Mail Address' type='text'>
+  <input id='pw' name='password' placeholder='Password' type='password'>
+    <input id='cpw' name='cpassword' placeholder='Confirm Password' type='password'>
+	<input id='colg' name='college' placeholder='College' type='text'>
+      <input id='mobile' name='number' placeholder='Mobile Number' type='text'>
+
+  <div class='agree'>
+    <input id='agree' name='agree' type='checkbox'>
+    <label for='agree'></label>Accept <a href="rules">Rules</a> and conditions
+  </div>
+  <input class='animated' type='submit' value='Register'>
+  </form>
+  <a class='forgot' href='/login'>Already have an account?</a>
+</div>
+        <script src="js/index.js"></script>
+  </body>
+</html>

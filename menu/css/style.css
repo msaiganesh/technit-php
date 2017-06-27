@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  background: #fff;
+  margin: 40px;
+  position: relative;
+  overflow: hidden;
+}
+ul li {
+  list-style: none;
+  text-transform: uppercase;
+  float: left;
+}
+ul li a {
+  color: #000;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 10px;
+  padding: 0 5px 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+.menuUnderline {
+  background-color: #000;
+  position: absolute;
+  height: 3px;
+  left: 252px;
+  bottom: 0;
+}
